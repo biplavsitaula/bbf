@@ -1,10 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
 @import 'tailwindcss';
 @import "tw-animate-css";
 
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Anta", sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -88,9 +89,9 @@
 }
 
 .dark {
-  --background: #1d8ca8;
+  --background: #838383;
   --foreground: oklch(0.985 0 0);
-  --card:#186a99;
+  --card:#333333;
   --card-foreground: oklch(0.985 0 0);
   --popover: oklch(0.205 0 0);
   --popover-foreground: oklch(0.985 0 0);

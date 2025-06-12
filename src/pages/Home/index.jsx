@@ -58,7 +58,7 @@ function Home() {
         <div className="w-full h-full absolute top-0 left-0 bg-linear-to-b from-transparent to-black from-10% to-50% opacity-70 "></div>
         <img
           loading="lazy"
-          className="object-cover w-full h-full opacity-100 max-sm:object-[30%]"
+          className="object-cover grayscale w-full h-full opacity-100 max-sm:object-[30%]"
           src={"/gts-hero-image.jpg" || "https://placehold.co/100x800"}
         />
         <div
