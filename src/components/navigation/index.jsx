@@ -77,19 +77,8 @@ const NavigationOptions = ({
       <NavigationMenu>
         <NavigationMenuLink href="/about">About</NavigationMenuLink>
       </NavigationMenu>
-      <NavigationMenu>
-        <NavigationMenuList>
-          <NavigationMenuItem>
-            <NavigationMenuTrigger className="bg-transparent">
-              Services
-            </NavigationMenuTrigger>
-            <NavigationMenuContent className="bg-background text-primary border">
-              <NavigationMenuLink>Web</NavigationMenuLink>
-              <NavigationMenuLink>Mobile</NavigationMenuLink>
-              <NavigationMenuLink>Desktop</NavigationMenuLink>
-            </NavigationMenuContent>
-          </NavigationMenuItem>
-        </NavigationMenuList>
+       <NavigationMenu>
+        <NavigationMenuLink href="/services">Services</NavigationMenuLink>
       </NavigationMenu>
       <NavigationMenu>
         <NavigationMenuLink href="/projects">Projects</NavigationMenuLink>

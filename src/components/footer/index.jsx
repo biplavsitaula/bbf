@@ -56,7 +56,7 @@ function Footer() {
         <form>
           <input
             placeholder="you@example.com"
-            className="outline px-1 rounded py-2"
+            className="outline bg-foreground text-background px-1 rounded py-2"
           />
           <button
             className=" bg-[#fed349] text-black px-2 rounded py-2"

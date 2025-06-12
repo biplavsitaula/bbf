@@ -1,21 +1,26 @@
 import NavBar from "./components/navigation";
 import Footer from "./components/footer";
-import { Home, About } from "./pages";
+import { Home, About, Services } from "./pages";
 import { createBrowserRouter, Outlet, RouterProvider } from "react-router";
+
 const routes = createBrowserRouter([
   {
     path: "/",
     Component: RootLayout,
-    children:[
+    children: [
       {
-        path: '/',
-        Component: Home
+        path: "/",
+        Component: Home,
       },
       {
         path: "/about",
         Component: About,
       },
-    ]
+      {
+        path: "/services",
+        Component: Services,
+      },
+    ],
   },
 ]);
 
@@ -35,8 +40,8 @@ function RootLayout() {
     </>
   );
 }
-const App=()=>{
-  return <RouterProvider router={routes}/>
-}
+const App = () => {
+  return <RouterProvider router={routes} />;
+};
 
 export default App;

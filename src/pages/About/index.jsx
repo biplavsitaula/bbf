@@ -51,7 +51,7 @@ const AboutPage = () => {
           />
           <CardContent className="p-6">
             <h2 className="text-2xl font-semibold mb-4">{services.heading}</h2>
-            <ul className="list-disc pl-5 space-y-1  ">
+            <ul className="space-y-1  ">
               {services.list.map((item, idx) => (
                 <li key={idx}>{item}</li>
               ))}
@@ -67,7 +67,7 @@ const AboutPage = () => {
           />
           <CardContent className="p-6">
             <h2 className="text-2xl font-semibold mb-4">{trust.heading}</h2>
-            <ul className="list-disc pl-5 space-y-1  ">
+            <ul className="space-y-1  ">
               {trust.list.map((item, idx) => (
                 <li key={idx}>{item}</li>
               ))}
@@ -77,7 +77,7 @@ const AboutPage = () => {
 
         <Separator />
 
-        <p className="text-center text-lg italic mt-6">{closing}</p>
+        <p className="text-center text-lg mt-6">{closing}</p>
       </section>
     </div>
   );
