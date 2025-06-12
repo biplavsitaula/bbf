@@ -12,7 +12,7 @@ const routes = createBrowserRouter([
         Component: Home
       },
       {
-        path: "about",
+        path: "/about",
         Component: About,
       },
     ]
